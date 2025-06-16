@@ -1,19 +1,9 @@
 # 🧠 AI-Driven Frogger Game: FSM vs Behavior Trees
 
 > 🎮 A modern AI-enhanced take on the classic arcade game **Frogger**, leveraging **Finite State Machines (FSM)** and **Behavior Trees (BT)** to simulate intelligent autonomous agents.
->  
 > 🔬 Developed as part of the course **CSCI218 – Foundations of Artificial Intelligence** to explore applied game AI in dynamic environments.
 
----
-
-![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
-![Pygame](https://img.shields.io/badge/framework-pygame-yellow)
-![AI Models](https://img.shields.io/badge/AI%20Models-FSM%20%7C%20BT-green)
-![Status](https://img.shields.io/badge/status-Completed-brightgreen)
-
----
-
-## 📖 Overview
+# 📖 Overview
 
 This project reimagines the nostalgic game **Frogger** by integrating artificial intelligence techniques to create adaptive, responsive, and strategic gameplay. The AI controls the frog agent, allowing it to autonomously navigate through streets filled with vehicles, cross rivers using moving platforms, and reach safe zones — all without player input.
 
@@ -26,21 +16,21 @@ This project demonstrates how **AI can enrich game environments**, making them m
 
 ---
 
-## 🧠 Core AI Concepts
+# 🧠 Core AI Concepts
 
-### 🔁 Finite State Machines (FSM)
+## 🔁 Finite State Machines (FSM)
 - Deterministic transitions between `IDLE`, `MOVING`, and `WAITING`.
 - Quick response to immediate threats (e.g., cars).
 - Lightweight and efficient, ideal for simpler agents.
 
-### 🌲 Behavior Trees (BT)
+## 🌲 Behavior Trees (BT)
 - Hierarchical structure for modular behavior.
 - Nodes like **Selectors**, **Sequences**, and **Conditions** simulate complex decisions.
 - Enables smarter adaptation based on game context.
 
 ---
 
-## 🎮 Game Mechanics & Intelligence
+# 🎮 Game Mechanics & Intelligence
 
 | Section      | AI Logic                                                                 |
 |--------------|--------------------------------------------------------------------------|
@@ -54,7 +44,7 @@ Additional behaviors:
 
 ---
 
-## 📊 FSM vs BT: Comparative Insights
+# 📊 FSM vs BT: Comparative Insights
 
 | Feature                 | FSM                             | Behavior Tree                        |
 |------------------------|----------------------------------|--------------------------------------|
@@ -66,7 +56,7 @@ Additional behaviors:
 
 ---
 
-## 🧪 Tech Stack
+# 🧪 Tech Stack
 
 - **Language**: Python 3.8+
 - **Game Engine**: Pygame
@@ -75,7 +65,7 @@ Additional behaviors:
 
 ---
 
-## 📁 Directory Structure
+# 📁 Directory Structure
 
 📦 frogger-ai-project
 ├── frogger_FSM.py # FSM-based autonomous frog AI
@@ -85,19 +75,14 @@ Additional behaviors:
 ├── requirements.txt # Dependency list
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
 
----
+# ⚙️ Installation & Execution
 
-## ⚙️ Installation & Execution
-
-### 1. Install Dependencies
+## 1. Install Dependencies
 
 pip install pygame py_trees
 
-### 2. Run the Game
+## 2. Run the Game
 bash
 Copy
 Edit
@@ -108,7 +93,7 @@ python frogger_FSM.py
 python frogger_BT.py
 Ensure that /images and /sounds folders are in the same directory.
 
-## 🎓 Learning Outcomes
+# 🎓 Learning Outcomes
 Applied FSM and BT structures in a real-time game environment
 
 Analyzed strengths and weaknesses of rule-based vs modular AI
@@ -117,7 +102,7 @@ Learned to implement human-like constraints (reaction delay, decision cooldowns)
 
 Understood trade-offs between performance and intelligence in AI agents
 
-## 🚀 Future Improvements
+# 🚀 Future Improvements
 Implement reinforcement learning for self-learning agents (e.g., Q-Learning, DQN)
 
 Add pathfinding algorithms (e.g., A*) to intelligently navigate dynamic terrain
@@ -127,7 +112,7 @@ Improve safe zone logic to seek alternatives when zones are filled
 Add disappearing platforms, reactive obstacles, and multi-agent competition
 
 
-## 📜 Acknowledgements
+# 📜 Acknowledgements
 Base game adapted from: Pygame Frogger Project
 Developed at University of Wollongong in Dubai for the CSCI218 AI course
 
