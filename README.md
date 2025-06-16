@@ -18,12 +18,12 @@ This project demonstrates how **AI can enrich game environments**, making them m
 
 ## 🧠 Core AI Concepts
 
-# 🔁 Finite State Machines (FSM)
+### 🔁 Finite State Machines (FSM)
 - Deterministic transitions between `IDLE`, `MOVING`, and `WAITING`.
 - Quick response to immediate threats (e.g., cars).
 - Lightweight and efficient, ideal for simpler agents.
 
-# 🌲 Behavior Trees (BT)
+### 🌲 Behavior Trees (BT)
 - Hierarchical structure for modular behavior.
 - Nodes like **Selectors**, **Sequences**, and **Conditions** simulate complex decisions.
 - Enables smarter adaptation based on game context.
