@@ -78,18 +78,18 @@ Additional behaviors:
 
 ## ⚙️ Installation & Execution
 
-# 1. Install Dependencies
+## 1. Install Dependencies
 
 pip install pygame py_trees
 
-# 2. Run the Game
+## 2. Run the Game
 bash
 Copy
 Edit
-# FSM AI Version
+### FSM AI Version
 python frogger_FSM.py
 
-# Behavior Tree AI Version
+### Behavior Tree AI Version
 python frogger_BT.py
 Ensure that /images and /sounds folders are in the same directory.
 
